@@ -1,66 +1,88 @@
-body{
-    background-image: 
-    url(https://st3.depositphotos.com/4218696/19144/i/1600/depositphotos_191449982-stock-photo-bridal-background-with-planner-checklist.jpg); 
+body {
+    background-image: url(https://st3.depositphotos.com/4218696/19144/i/1600/depositphotos_191449982-stock-photo-bridal-background-with-planner-checklist.jpg);
     min-height: 80vh;
- /* background-color : rgba(221, 218, 179, 0.911);  */
+    /* background-color : rgba(221, 218, 179, 0.911);  */
 }
-.card{
-    margin-top: 2.5vw;
+
+.card {
+    margin-top: 5vh;
     margin-left: 32.5vw;
     margin-right: 32.5vw;
     max-width: 35vw;
     display: block;
-    border-radius: 0.4vw ;
+    border-radius: 0.4vw;
 }
-.block1{
-    display:flex;
+
+.block1 {
+    display: flex;
 }
-.input{
+
+.input {
     margin-left: 1vw;
     margin-top: 0.2vw;
     border-radius: 0.3vw;
-    width: 22vw;
-    height: 2vw;
+    width: 22.7vw;
+    height: 4vh;
     background: linear-gradient(rosybrown, rgb(238, 206, 206));
     font-size: 16px;
     text-align: center;
+    outline: none;
 }
-.btn{
-    height: 2.35vw;
-    width: 2vw;
-    margin-right: 0.8vw;
-    margin-top: 0.2vw;
+.select {
+    margin-top: 0.5vh;
     cursor: pointer;
     border-radius: 0.3vw;
+    outline: none;
+    height: 5vh;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0.3vw;
+    width: 33vw;
+    margin-top: 0.25vh;
+    margin-left: 1vw;
+} 
+h4{
+    margin-left: 1vw;
 
 }
-.select{
-    margin-top: 0.1vw;
-    cursor: pointer;
-    height: 2.35vw;
-    border-radius: 0.3vw;
+
+.color:nth-child(4n+1) {
+    background: linear-gradient( lightseagreen, rgba(74, 201, 252, 0.596));
 }
-.list{
-    display:flex; 
-justify-content: space-between;
-align-items: center;
-    border-radius: 0.3vw;
+
+.color:nth-child(4n+2) {
+    background: linear-gradient( teal, rgb(106, 243, 168));
 }
-.color:nth-child(4n+1){
-    background: linear-gradient( lightseagreen,rgba(74, 201, 252, 0.596));
-}
-.color:nth-child(4n+2){
-background: linear-gradient( teal, rgb(106, 243, 168));
-}
-.color:nth-child(4n+3){
+
+.color:nth-child(4n+3) {
     background: linear-gradient(rgb(243, 243, 139), rgb(240, 200, 128));
 }
-.color:nth-child(4n+4){
-    background:linear-gradient(rgb(161, 141, 102), rgb(224, 186, 155));
+
+.color:nth-child(4n+4) {
+    background: linear-gradient(rgb(161, 141, 102), rgb(224, 186, 155));
 }
-.list>i{
+.list>i {
     cursor: pointer;
 }
-.completed{
+
+.completed {
     text-decoration: line-through;
+    color:rgb(94, 92, 92);
 }
+button {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.fa-plus-square{
+    font-size: large;
+  margin-top:0.25vh
+}
+/* p{display: flex;
+   
+} */
